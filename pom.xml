@@ -10,7 +10,7 @@
   <packaging>war</packaging>
 
   <build>
-    <finalName>mywebapp</finalName>
+    <finalName>4glapp</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
