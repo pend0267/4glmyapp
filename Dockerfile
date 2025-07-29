@@ -5,5 +5,5 @@ FROM tomcat:9.0
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # .war 복사
-COPY target/4glapp.war /usr/local/tomcat/webapps/tomcat.war
+COPY target/*.war /usr/local/tomcat/webapps/tomcat.war
 
